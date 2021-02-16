@@ -1,8 +1,9 @@
-.wrapper h2 {
+.header-top h2 {
   color: red;
 }
-
-.wrapper h3 {
+.header-top h2 strong {
+  font-style: italic;
+}
+.header-top h3 {
   color: red;
 }
-

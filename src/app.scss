@@ -1,12 +1,16 @@
 $font-color:red;
-
-.wrapper{
+.header{
+  &-top{
 
   h2 {
     color: $font-color;
+    strong{
+      font-style: italic;
+    }
   }
   h3 {
     color: $font-color;
   }
 
+}
 }
