@@ -1,0 +1,15 @@
+.header {
+  border: 1px solid lime;
+}
+
+.cover {
+  background: url("../img/prova.jpg") no-repeat center center;
+  background-size: cover;
+  height: 0px;
+  padding-bottom: 13.6363636364%;
+}
+
+.footer {
+  background-color: #ccc;
+  color: blue;
+}

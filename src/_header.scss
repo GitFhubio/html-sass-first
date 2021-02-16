@@ -1,0 +1,8 @@
+.header{
+ border: 1px solid $primary_color;}
+ .cover{
+   @include background-cover("../img/prova.jpg");
+   // height: 500px
+   @include responsive-height(22,3);
+   // oppure potevo lasciare variabili e definirle in variables
+ }
