@@ -1,3 +1,18 @@
+.flex {
+  display: flex;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  background-color: green;
+}
+
+.header-top {
+  flex-direction: column;
+  align-items: center;
+}
 .header-top h2 {
   color: red;
 }
@@ -6,4 +21,38 @@
 }
 .header-top h3 {
   color: red;
+}
+.header-bottom {
+  color: darkblue;
+  padding: 0 30px;
+}
+
+main {
+  height: 300px;
+}
+main .left, main .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.33%;
+  background-color: red;
+  border: 1px solid black;
+}
+main .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  background-color: red;
+  border: 1px solid black;
+}
+main .center_form_radio, main .center_form_checkboxes, main .center_form_send {
+  display: flex;
+  justify-content: center;
+}
+main .left img {
+  width: 50px;
+  height: 50px;
 }
